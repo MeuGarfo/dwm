@@ -6,6 +6,8 @@ while true; do
 done &
 nitrogen --restore &
 xdotool exec alarm-clock-applet &
-sleep 0.5 &
-xdotool key Alt_L+Shift_L+5 &
+sleep 1 &
+xdotool key Alt_L+2 &
+xdotool key Alt_L+1 &
+xdotool key Alt_L+Shift_L+9 &
 exec dwm 
