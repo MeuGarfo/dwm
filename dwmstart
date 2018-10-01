@@ -5,9 +5,5 @@ while true; do
     sleep 30s    # atualiza a cada 30 segundos
 done &
 nitrogen --restore &
-xdotool exec alarm-clock-applet &
-sleep 1 &
-xdotool key Alt_L+2 &
-xdotool key Alt_L+1 &
-xdotool key Alt_L+Shift_L+9 &
+alarm-clock-applet &
 exec dwm 
