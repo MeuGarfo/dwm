@@ -1,8 +1,8 @@
 #!/bin/bash
 #sudo nano /usr/share/xsessions/dwm.desktop
 while true; do
-    xsetroot -name "$(date +"%a, %d-%b-%Y %I:%M %p")"
-    sleep 30s    # atualiza a cada 30 segundos
+    xsetroot -name "$(date +"%a, %d-%b-%Y %I:%M:%S %p")"
+    sleep 1s    # atualiza a cada 1 segundo
 done &
 nitrogen --restore &
 alarm-clock-applet &
